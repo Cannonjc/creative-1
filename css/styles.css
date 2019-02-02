@@ -5,8 +5,12 @@
   background-color: #AB7142;
 }
 
+.nav-color{
+	background-color: #823600;
+}
+
 footer {
-	background-color: #555;
+	background-color: #823600;
 	color: white;
 	padding: 15px;
 	bottom: 0;
