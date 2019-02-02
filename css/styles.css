@@ -1,0 +1,55 @@
+.bg-blue{
+  background-color: #847D76;
+}
+.bg-zella{
+  background-color: #AB7142;
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	position: fixed;
+
+}
+footer a {
+  color: white;
+}
+
+.name-rating {
+  display: flex;
+  width: 200px;
+  margin-top: 30px;
+}
+.name{
+  margin-right: auto;
+}
+.rating{
+  margin-left: auto;
+}
+
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .portfolio {
+    grid-template: auto auto auto auto auto / 1fr 1fr
+  }
+}
+
+.image img {
+  width: 100%;
+}
+
+.home {
+  text-align: center;
+}
